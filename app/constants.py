@@ -1,0 +1,34 @@
+class Constants:
+  FPS = 60
+
+  SCREEN_WIDTH = 800
+  SCREEN_HEIGHT = 800
+
+  ROWS = 4
+  COLS = 4
+
+  RECT_WIDTH = SCREEN_WIDTH // ROWS
+  RECT_HEIGHT = SCREEN_HEIGHT // COLS
+
+  OUTLINE_COLOR = (187, 173, 160)
+  OUTLINE_THICKNESS = 10
+  BACKGROUND_COLOR = (205, 192, 180)
+  FONT_COLOR = (119, 110, 101)
+
+  FONT_NAME = 'comicsans'
+  FONT_SIZE = 60
+  FONT_BOLD = True
+
+  MOVE_VELOCITY = 20
+
+  COLORS = [
+    (237, 229, 218),
+    (238, 225, 201),
+    (243, 178, 122),
+    (246, 150, 101),
+    (247, 124, 95),
+    (247, 95, 59),
+    (237, 208, 115),
+    (237, 204, 99),
+    (236, 202, 80),
+  ]
